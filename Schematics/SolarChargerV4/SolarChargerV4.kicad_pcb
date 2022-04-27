@@ -70,7 +70,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "SolarChargerV4/PDF Files/")
+      (outputdirectory "SolarChargerV3/PDF Files/")
     )
   )
 
