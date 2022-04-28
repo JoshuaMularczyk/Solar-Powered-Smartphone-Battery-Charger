@@ -333,7 +333,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "SolarChargerV5.kicad_pro",
+    "filename": "SolarChargerV6.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -365,7 +365,7 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "../../../../Engineering Classes/ENGR 460/SolarChargerV9.net",
+      "netlist": "../../../Engineering Classes/ENGR 460/SolarChargerV8.net",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
