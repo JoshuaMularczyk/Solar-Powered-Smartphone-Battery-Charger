@@ -38,7 +38,7 @@ This simulation shows the voltages going into each of our three USB output pins 
 
 <img width="958" alt="currentsim" src="https://user-images.githubusercontent.com/103919092/171947246-d86cb5ba-57f3-49fe-8221-589e6aca34f5.PNG">
 
-This simulation shows the two different currents in our circuit. The green trace represents the current going into the LM3478. It starts at about 270mA and trails off close to 0A. The blue trace represents the current being pulled from the 5 ohm load resistor which is taking the place of an iphone. The iPhone needs to draw around 1A of current and as seen in the simulation it will achieve this.
+This simulation shows the two different currents in our circuit. The green trace represents the current going into the LM3478. It starts at about 270mA and trails off close to 0A. The blue trace represents the current being pulled from the 5 ohm load resistor which is taking the place of an iPhone. The iPhone needs to draw around 1A of current and as seen in the simulation it will achieve this.
 
 ## Rev 7 PCB Design
 
