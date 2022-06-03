@@ -11,10 +11,10 @@ The power electronics project that [Christian Williams](https://github.com/cwill
 
 ## Rev 7 Design
 <img width="805" alt="schematic" src="https://user-images.githubusercontent.com/103919092/171796808-3db44315-7d83-4c79-971b-e4f8263e1bfc.PNG">
-This is the most updated KiCad schematic for my circuit design. I used the [Texas Instrument Webench Power Designer](https://www.ti.com/design-resources/design-tools-simulation/webench-power-designer.html) to generate this step-down circuit. I specified a 5V minimum as well as a 12V maximum based on what would most likely be coming out of the solar panel. I also specified 1A for my maximum output current and 5V for my output voltage.
+This is the most updated KiCad schematic for my circuit design. I used the Texas Instrument [Webench Power Designer](https://www.ti.com/design-resources/design-tools-simulation/webench-power-designer.html) to generate this step-down circuit. I specified a 5V minimum as well as a 12V maximum based on what would most likely be coming out of the solar panel. I also specified 1A for my maximum output current and 5V for my output voltage.
 
 ### Note on the voltages of the USB 
-<img width="112" alt="voltagefix" src="https://user-images.githubusercontent.com/103919092/171797049-e7c6030b-2a28-40b2-b763-526aaf06bf85.PNG">
+<img width="212" alt="voltagefix" src="https://user-images.githubusercontent.com/103919092/171797049-e7c6030b-2a28-40b2-b763-526aaf06bf85.PNG">
 This was the added circuitry talked about in the testing section. For the pcb that we printed, we had to make this manually with throughhole resistors and soldered it to the underside of the board. *Note the 
 
 ## Rev 7 Simulation
