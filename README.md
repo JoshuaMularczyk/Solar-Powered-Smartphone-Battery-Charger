@@ -16,7 +16,7 @@ The power electronics project that [Christian Williams](https://github.com/cwill
 <img width="112" alt="voltagefix" src="https://user-images.githubusercontent.com/103919092/171797049-e7c6030b-2a28-40b2-b763-526aaf06bf85.PNG">
 
 
-## Simulation
+## Rev 7 Simulation
 <img width="937" alt="sim" src="https://user-images.githubusercontent.com/103919092/171796889-ca19fa5c-3ef4-4bb1-9945-8d61918285da.PNG">
 
 ### Voltage Outputs (5V 2.7V 2V)
@@ -24,9 +24,9 @@ The power electronics project that [Christian Williams](https://github.com/cwill
 
 ### Input and Output Current
 
-## PCB Design
+## Rev 7 PCB Design
 <img width="660" alt="pcb" src="https://user-images.githubusercontent.com/103919092/171798682-d67deb13-11dc-40d1-a506-84b779b9a644.PNG">
 
-## Testing
+## Rev 6 Testing
 
-## Results
+## Rev 6 Results
