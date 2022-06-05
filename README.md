@@ -49,7 +49,7 @@ We had our boards sourced from [JLCPCB](https://jlcpcb.com/VGS?utm_source=gg_vgs
 
 My partner and I decided to construct a [Build and Test Plan](https://github.com/JoshuaMularczyk/Solar-Smartphone-Charger/blob/main/Milestone%20Reports/Build%20and%20Test%20Plan.xlsx) while we waited for our parts to come in from JLCPCB and Digikey. It helped us think through ways of testing things in stages without causing the destructions of parts.
 
-img width ="730" alt="IMG-2079" src="https://user-images.githubusercontent.com/103919092/172071789-ddb3b23f-fdcf-4cd2-8f8e-7058f5be7122.PNG">
+<img width ="730" alt="IMG-2079" src="https://user-images.githubusercontent.com/103919092/172071789-ddb3b23f-fdcf-4cd2-8f8e-7058f5be7122.PNG">
 ![IMG-2080](https://user-images.githubusercontent.com/103919092/172071805-037e6bf5-900f-40e0-b412-12e99efecea5.png)
 
 
