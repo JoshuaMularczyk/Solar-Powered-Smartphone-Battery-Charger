@@ -49,8 +49,7 @@ We had our boards sourced from [JLCPCB](https://jlcpcb.com/VGS?utm_source=gg_vgs
 
 My partner and I decided to construct a [Build and Test Plan](https://github.com/JoshuaMularczyk/Solar-Smartphone-Charger/blob/main/Milestone%20Reports/Build%20and%20Test%20Plan.xlsx) while we waited for our parts to come in from JLCPCB and Digikey. It helped us think through ways of testing things in stages without causing the destructions of parts.
 
-<img width ="730" alt="IMG-2079" src="https://user-images.githubusercontent.com/103919092/172071789-ddb3b23f-fdcf-4cd2-8f8e-7058f5be7122.PNG">
-![IMG-2080](https://user-images.githubusercontent.com/103919092/172071805-037e6bf5-900f-40e0-b412-12e99efecea5.png)
+<img width="500" alt="IMG-2079" src="https://user-images.githubusercontent.com/103919092/172071789-ddb3b23f-fdcf-4cd2-8f8e-7058f5be7122.png"><img width="500" alt="IMG-2080" src="https://user-images.githubusercontent.com/103919092/172071805-037e6bf5-900f-40e0-b412-12e99efecea5.png">
 
 
 
@@ -59,5 +58,10 @@ My partner and I each constructed a separate board and tested to see if it worke
 Next, we connected our 5W 12V solar panels to the converter and took them outside to get direct sunlight. Once the solar panel was propped up to be perpendicular to the sun, I plugged in my iPhone and it started charging. It takes quite a bit of time to charge with 5W so I recommend getting a higher wattage solar panel for faster charging.
 
 ## Rev 6 Results
+
+The image on the left shows the voltage being supplied to the iPhone and the image on the right shows the current being drawn by the iPhone.
+
+<img width="400" alt="IMG-1079" src="https://user-images.githubusercontent.com/103919092/172072088-5cb21dbd-36de-4d5a-aee9-864d0d37841f.jpg"><img width="400" alt="IMG-1081" src="https://user-images.githubusercontent.com/103919092/172072099-f12144a6-9be4-4a8b-8c2a-dc5363fb0343.jpg">
+
 
 The Solar Smartphone Charger worked as expected and was able to charge smartphones, Apple and Android, during a sunny day. You can see more photos of the finished product on the [wiki]() here!
