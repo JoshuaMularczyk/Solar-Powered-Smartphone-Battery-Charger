@@ -64,4 +64,4 @@ The image on the left shows the voltage being supplied to the iPhone and the ima
 <img width="400" alt="IMG-1079" src="https://user-images.githubusercontent.com/103919092/172072088-5cb21dbd-36de-4d5a-aee9-864d0d37841f.jpg"><img width="400" alt="IMG-1081" src="https://user-images.githubusercontent.com/103919092/172072099-f12144a6-9be4-4a8b-8c2a-dc5363fb0343.jpg">
 
 
-The Solar Smartphone Charger worked as expected and was able to charge smartphones, Apple and Android, during a sunny day. You can see more photos of the finished product on the [wiki]() here!
+The Solar Smartphone Charger worked as expected and was able to charge smartphones, Apple and Android, during a sunny day. You can see more photos of the finished product on the [wiki](https://github.com/JoshuaMularczyk/Solar-Smartphone-Charger/wiki/Photos) here!
