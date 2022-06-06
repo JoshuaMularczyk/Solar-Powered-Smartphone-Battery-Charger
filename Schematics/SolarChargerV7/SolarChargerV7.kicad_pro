@@ -365,7 +365,7 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "../../../Engineering Classes/ENGR 460/SolarChargerV8.net",
+      "netlist": "SolarChargerV7.net",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""

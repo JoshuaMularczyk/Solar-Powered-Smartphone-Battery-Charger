@@ -55,39 +55,29 @@ Limiting fall time of source v:u2:_iss_tst to 1e-008
 Model "m1:pmosd": Oxide thickness thinner than recommended for a level 1 MOSFET.
 Instance "m:m1:2": Length shorter than recommended for a level 1 MOSFET.
 Per .tran options, skipping operating point for transient analysis.
-Heightened Def Con from 0.0001215 to 0.000121507
-Heightened Def Con from 0.000278374 to 0.000278381
-Heightened Def Con from 0.000306058 to 0.000306065
-Heightened Def Con from 0.000336817 to 0.000336824
-Heightened Def Con from 0.000342969 to 0.000342976
-Heightened Def Con from 0.000379881 to 0.000379881
-Heightened Def Con from 0.000444476 to 0.000444483
-Heightened Def Con from 0.000453704 to 0.000453711
-Heightened Def Con from 0.000838198 to 0.000838205
-Heightened Def Con from 0.00145647 to 0.00145647
-Heightened Def Con from 0.00149645 to 0.00149646
-Heightened Def Con from 0.00371114 to 0.00371115
-Heightened Def Con from 0.00439708 to 0.00439709
-Heightened Def Con from 0.00565207 to 0.00565208
-Heightened Def Con from 0.00670097 to 0.00670098
-Heightened Def Con from 0.00676249 to 0.0067625
-Heightened Def Con from 0.00703613 to 0.00703613
+Heightened Def Con from 0.000835122 to 0.000835129
+Heightened Def Con from 0.00141955 to 0.00141956
+Heightened Def Con from 0.00175791 to 0.00175792
+Heightened Def Con from 0.00206858 to 0.00206859
+Heightened Def Con from 0.00360348 to 0.00360349
+Heightened Def Con from 0.00375113 to 0.00375114
+Heightened Def Con from 0.00522451 to 0.00522452
 
-Date: Tue May 24 20:33:25 2022
-Total elapsed time: 94340.192 seconds.
+Date: Fri Jun 03 13:23:47 2022
+Total elapsed time: 55442.850 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 248230216
-traniter = 248230216
-tranpoints = 123272983
-accept = 87824833
-rejected = 35448167
+totiter = 212641331
+traniter = 212641331
+tranpoints = 105596213
+accept = 75198315
+rejected = 30397905
 matrix size = 248
 fillins = 179
 solver = Normal
-Thread vector: 50.7/15.2[6] 13.5/5.2[6] 21.7/5.1[6] 1.0/2.0[1]  2592/500
-Matrix Compiler1: 15.33 KB object code size  10.4/5.9/[1.1]
-Matrix Compiler2: 18.75 KB object code size  4.8/7.1/[0.9]
+Thread vector: 37.8/24.3[6] 18.3/6.1[6] 32.7/7.5[6] 1.7/3.4[1]  2592/500
+Matrix Compiler1: 15.33 KB object code size  15.6/7.5/[1.5]
+Matrix Compiler2: 18.75 KB object code size  7.3/8.8/[1.3]
 
