@@ -16,7 +16,7 @@ The power electronics project that [Christian Williams](https://github.com/cwill
 
 <img width="814" alt="schematic2" src="https://user-images.githubusercontent.com/103919092/171946765-55e72f38-f459-4aac-95c0-715ab55abb05.PNG">
 
-This is the most updated KiCad schematic for my circuit design. I used the Texas Instrument [Webench Power Designer](https://www.ti.com/design-resources/design-tools-simulation/webench-power-designer.html) to generate this step-down circuit. I used the majority of the components specified by the power designer with the exception of some values. These can be found in the [BOM](https://github.com/JoshuaMularczyk/Solar-Smartphone-Charger/tree/main/BOMs) I specified a 5V minimum as well as a 12V maximum based on what would most likely be coming out of the solar panel. I also specified 1A for my maximum output current and 5V for my output voltage.
+This is the most updated KiCad schematic for my circuit design. I used the Texas Instrument [Webench Power Designer](https://www.ti.com/design-resources/design-tools-simulation/webench-power-designer.html) to generate this step-down circuit. I used the majority of the components specified by the power designer with the exception of some values. These can be found in the [BOM](https://github.com/JoshuaMularczyk/Solar-Smartphone-Charger/tree/main/BOMs) I specified a 5V minimum as well as a 12V maximum based on what would most likely be coming out of the solar panel. I also specified 1A for my maximum output current and 5V for my output voltage. The efficiency of this circuit was given at 84.1% by Webench.
 
 ### Voltage Dividers for USB
 
