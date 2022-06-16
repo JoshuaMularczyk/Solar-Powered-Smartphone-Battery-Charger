@@ -18,11 +18,11 @@ The power electronics project that [Christian Williams](https://github.com/cwill
 
 This is the most updated KiCad schematic for my circuit design. I used the Texas Instrument [Webench Power Designer](https://www.ti.com/design-resources/design-tools-simulation/webench-power-designer.html) to generate this step-down circuit. I used the majority of the components specified by the power designer with the exception of some values. These can be found in the [BOM](https://github.com/JoshuaMularczyk/Solar-Smartphone-Charger/tree/main/BOMs) I specified a 5V minimum as well as a 12V maximum based on what would most likely be coming out of the solar panel. I also specified 1A for my maximum output current and 5V for my output voltage.
 
-### Note on the voltages of the USB
+### Voltage Dividers for USB
 
 <img width="231" alt="volatgefix2" src="https://user-images.githubusercontent.com/103919092/171946973-5ae8239b-4c4a-4da7-a379-1b64c578ddf0.PNG"><img width="638" alt="applereq" src="https://user-images.githubusercontent.com/103919092/171945713-fd5c0198-309d-4787-8156-a73bbe2ed5c6.PNG">
 
-This was the added circuitry talked about in the testing section. For the pcb that we printed, we had to make this manually with through hole resistors and soldered it to the underside of the board. *Note since we are using 1A the Vbus pin needs 5V, the D- pin needs 2V, and the D+ pin needs 2.7V* This can be found in the following websites: [Pinout for USB](http://static.righto.com/files/charger-schematic.pdf) and [Values based on different Ampheres](https://kb.plugable.com/usb-hubs-cables-switches/usb-device-charging).
+The voltages that needed to be applied to the Vbus, D+, and D- pin were found in the following websites: [Pinout for USB](http://static.righto.com/files/charger-schematic.pdf) and [Values based on different Ampheres](https://kb.plugable.com/usb-hubs-cables-switches/usb-device-charging). *Note since we are using 1A the Vbus pin needs 5V, the D- pin needs 2V, and the D+ pin needs 2.7V*
 ## Rev 7 Simulation
 I simulated our circuit in LTSpice
 
@@ -56,7 +56,7 @@ My partner and I decided to construct a [Build and Test Plan](https://github.com
 
 
 
-My partner and I each constructed a separate board and tested to see if it worked. After constructing the boards we used a 0-18V 1A power supply and realized that the boards were not allowing our iPhones to charge. We plugged in a nearby TI-84 Plus CE calculator that was rated to charge at 5V 0.5A and it started charging. We then decided to switch to a bigger power supply rated for 24V 3A and plugged in an Android which began to charge. The iPhone still would not charge. After some research about Apple devices, a fellow colleague, [Caydn Maddocks](https://github.com/Maddca) and I discovered that Apple was extra particular and required voltages to the D+ and D- pins of the USB connector. The specific voltages differ based on the current being drawn (we used 2.7V to D+ and 2V to D-). This can be seen in the "Note on the Voltages of the USB" section above. After wiring two voltage dividers together and soldering them onto the back side of the board, we plugged the iPhone into the original 0-18V 1A power supply and it started charging successfully.
+My partner and I each constructed a separate board and tested to see if it worked. After constructing the boards we used a 0-18V 1A power supply and realized that the boards were not allowing our iPhones to charge. We plugged in a nearby TI-84 Plus CE calculator that was rated to charge at 5V 0.5A and it started charging. We then decided to switch to a bigger power supply rated for 24V 3A and plugged in an Android which began to charge. The iPhone still would not charge. After some research about Apple devices, a fellow colleague, [Caydn Maddocks](https://github.com/Maddca) and I discovered that Apple was extra particular and required voltages to the D+ and D- pins of the USB connector. The specific voltages differ based on the current being drawn (we used 2.7V to D+ and 2V to D-). This can be seen in the "Volatage Dividers for USB" section above. The process of fixing this can be seen in the issues section [here]().
 
 Next, we connected our 5W 12V solar panels to the converter and took them outside to get direct sunlight. Once the solar panel was propped up to be perpendicular to the sun, I plugged in my iPhone and it started charging. It takes quite a bit of time to charge with 5W so I recommend getting a higher wattage solar panel for faster charging.
 
