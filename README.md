@@ -70,6 +70,6 @@ Here we can see that using the power supply, our circuits is around 93.7% effici
 
 The Solar Smartphone Charger worked as expected and was able to charge smartphones, Apple and Android, during a sunny day. You can see more photos of the finished product on the [wiki](https://github.com/JoshuaMularczyk/Solar-Smartphone-Charger/wiki/Photos) here!
 
-We measured a 4.8V 0.98A output from our circuit using a solar panel. This gives us an efficiency of 98% given that our solar panel was actually outputting 5W.
+We measured a 4.74V 0.98A output from our circuit using a solar panel. This gives us an efficiency of 92.9% given that our solar panel was actually outputting 5W.
 
 Click [here](https://youtu.be/SS7m2UqrDPg) to watch a video demonstration of the finished project!
