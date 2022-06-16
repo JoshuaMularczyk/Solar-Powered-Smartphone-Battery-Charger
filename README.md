@@ -22,7 +22,7 @@ This is the most updated KiCad schematic for my circuit design. I used the Texas
 
 <img width="231" alt="volatgefix2" src="https://user-images.githubusercontent.com/103919092/171946973-5ae8239b-4c4a-4da7-a379-1b64c578ddf0.PNG"><img width="638" alt="applereq" src="https://user-images.githubusercontent.com/103919092/171945713-fd5c0198-309d-4787-8156-a73bbe2ed5c6.PNG">
 
-The voltages that needed to be applied to the Vbus, D+, and D- pin were found in the following websites: [Pinout for USB](http://static.righto.com/files/charger-schematic.pdf) and [Values based on different Ampheres](https://kb.plugable.com/usb-hubs-cables-switches/usb-device-charging). *Note since we are using 1A the Vbus pin needs 5V, the D- pin needs 2V, and the D+ pin needs 2.7V*
+The voltages that needed to be applied to the Vbus, D+, and D- pin were found in the following websites: [Pinout for USB](http://static.righto.com/files/charger-schematic.pdf) and [Values based on different Ampheres](https://kb.plugable.com/usb-hubs-cables-switches/usb-device-charging). *Note since we are using 1A ouput the Vbus pin needs 5V, the D- pin needs 2V, and the D+ pin needs 2.7V*
 ## Rev 7 Simulation
 I simulated our circuit in LTSpice
 
