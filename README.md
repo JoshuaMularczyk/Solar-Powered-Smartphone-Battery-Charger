@@ -26,13 +26,13 @@ The voltages that needed to be applied to the Vbus, D+, and D- pin were found in
 ## Rev 7 Simulation
 I simulated our circuit in LTSpice
 
-<img width="937" alt="sim" src="https://user-images.githubusercontent.com/103919092/171796889-ca19fa5c-3ef4-4bb1-9945-8d61918285da.PNG">
+<img width="937" alt="labeledsim" src="https://user-images.githubusercontent.com/103919092/175172676-b8c4a63a-e1e4-4254-94d8-7d1da39b8684.PNG">
 
 LTSpice has most of the components needed, but I had to import a library for the LM3478. I found this library in a [project log](https://hackaday.io/project/27899-nixie-tube-power-supply/log/69767-ltspice) by [Paul Andrews](https://github.com/judge2005) on Hackaday. That library was causeing some errors in LTSpice so I did some research and realized I needed to add two more "0" place holders after each "PULSE" statement. The updated library that I used LM3478 can be downloaded [here](https://github.com/JoshuaMularczyk/Solar-Smartphone-Charger/blob/main/Simulations/LM3478_TRANS.lib). The second library I needed was for the csd17553q5a mosfet. I found this library on the [Texas Instrument](https://www.ti.com/product/CSD17553Q5A#design-tools-simulation) page. This library can be downloaded [here](https://github.com/JoshuaMularczyk/Solar-Smartphone-Charger/blob/main/Simulations/CSD17553Q5A.lib). The schottkey diode used in the simulation is also not the exact same component as used in the schematic but another schottkey diode with the same specifications was used in its place. The simulation ran over night to get to 7 ms. The prolonged period of time was likely due to the laptop it was running on as well as the coupled inductors in the circuit.
 
 ### Voltage Outputs (5V 2.7V 2V)
 
-<img width="960" alt="ThreeOutputVoltages" src="https://user-images.githubusercontent.com/103919092/171797195-8e6268f1-bec3-4a75-8258-a8a130c296d0.PNG">
+<img width="960" alt="labeledvoltages" src="https://user-images.githubusercontent.com/103919092/175172787-74d416ad-9689-4476-a306-a50df229bb21.PNG">
 
 This simulation shows the voltages going into each of our three USB output pins (5V, 2.7V, 2V).
 
