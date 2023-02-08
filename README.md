@@ -1,5 +1,5 @@
 # Solar Smartphone Charger
-This project applies skills of Power Electronics to create, deign, and construct a solar powered battery charger. My partner [Christian Williams](https://github.com/cwill713) and I were tasked by out professor [Dr. Rob Frohne](https://github.com/frohro) with coming up with a project for our Power Electronics class that incorporated what we were learning in the coursework. We decided to take what we were learning about step-down converters and design a charger for a smartphone in which the power source was a solar panel.
+This project applies skills of Power Electronics to create, deign, and construct a solar powered battery charger. My partner [Christian Williams](https://github.com/cwill713) and I were tasked by our professor [Dr. Rob Frohne](https://github.com/frohro) with coming up with a project for our Power Electronics class that incorporated what we were learning in the coursework. We decided to take what we were learning about step-down converters and design a charger for a smartphone in which the power source was a solar panel.
 
 ## Design Objectives:
 - Output 5V from a higher input voltage
